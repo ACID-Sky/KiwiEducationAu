@@ -16,6 +16,8 @@
 		76E15B9F2A25F0160047DF7F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B9E2A25F0160047DF7F /* InfoView.swift */; };
 		76E15BA12A25F15C0047DF7F /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA02A25F15C0047DF7F /* InfoRow.swift */; };
 		76E15BA32A25F84D0047DF7F /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA22A25F84D0047DF7F /* InfoDetails.swift */; };
+		76E15BA52A2607910047DF7F /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA42A2607910047DF7F /* HelloView.swift */; };
+		76E15BAA2A2608AE0047DF7F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA92A2608AE0047DF7F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		76E15B9E2A25F0160047DF7F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		76E15BA02A25F15C0047DF7F /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		76E15BA22A25F84D0047DF7F /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
+		76E15BA42A2607910047DF7F /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		76E15BA92A2608AE0047DF7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,9 @@
 			children = (
 				76E15B8B2A25DDE50047DF7F /* KiwiEducationAuApp.swift */,
 				76E15B8D2A25DDE50047DF7F /* ContentView.swift */,
-				76E15B9E2A25F0160047DF7F /* InfoView.swift */,
-				76E15BA02A25F15C0047DF7F /* InfoRow.swift */,
-				76E15BA22A25F84D0047DF7F /* InfoDetails.swift */,
+				76E15BA62A26079A0047DF7F /* Info Line */,
+				76E15BA82A2607BB0047DF7F /* Settings line */,
+				76E15BA72A2607A40047DF7F /* Hello line */,
 				76E15B8F2A25DDE70047DF7F /* Assets.xcassets */,
 				76E15B912A25DDE70047DF7F /* Preview Content */,
 				76E15B992A25E1790047DF7F /* DataModel */,
@@ -88,6 +92,32 @@
 				76E15B9C2A25EF5F0047DF7F /* Posts.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		76E15BA62A26079A0047DF7F /* Info Line */ = {
+			isa = PBXGroup;
+			children = (
+				76E15B9E2A25F0160047DF7F /* InfoView.swift */,
+				76E15BA02A25F15C0047DF7F /* InfoRow.swift */,
+				76E15BA22A25F84D0047DF7F /* InfoDetails.swift */,
+			);
+			path = "Info Line";
+			sourceTree = "<group>";
+		};
+		76E15BA72A2607A40047DF7F /* Hello line */ = {
+			isa = PBXGroup;
+			children = (
+				76E15BA42A2607910047DF7F /* HelloView.swift */,
+			);
+			path = "Hello line";
+			sourceTree = "<group>";
+		};
+		76E15BA82A2607BB0047DF7F /* Settings line */ = {
+			isa = PBXGroup;
+			children = (
+				76E15BA92A2608AE0047DF7F /* SettingsView.swift */,
+			);
+			path = "Settings line";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E15B9B2A25E1C10047DF7F /* Post.swift in Sources */,
+				76E15BA52A2607910047DF7F /* HelloView.swift in Sources */,
 				76E15B8E2A25DDE50047DF7F /* ContentView.swift in Sources */,
+				76E15BAA2A2608AE0047DF7F /* SettingsView.swift in Sources */,
 				76E15BA12A25F15C0047DF7F /* InfoRow.swift in Sources */,
 				76E15B8C2A25DDE50047DF7F /* KiwiEducationAuApp.swift in Sources */,
 				76E15B9F2A25F0160047DF7F /* InfoView.swift in Sources */,

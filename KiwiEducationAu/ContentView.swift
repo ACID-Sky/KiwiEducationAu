@@ -9,7 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        InfoView()
+        TabView() {
+            InfoView()
+                .tabItem {
+                    Label("About", systemImage: "info.circle")
+                }
+
+            HelloView()
+                .tabItem {
+                    Label("Hello", systemImage: "hand.raised.app.fill")
+                }
+
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gear.circle.fill")
+                }
+        }
+
     }
 }
 
