@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var titleOn = true
+    @AppStorage(wrappedValue: true, "titleOn") var titleOn
 
     var body: some View {
         TabView() {
