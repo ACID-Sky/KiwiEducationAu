@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InfoRow: View {
     var post: Post
+    var rowHeight: Double
 
     var body: some View {
         VStack {
@@ -17,7 +18,7 @@ struct InfoRow: View {
                     .resizable()
                     .scaledToFill()
                     .clipShape(Circle())
-                    .frame(width: 60, height: 60)
+                    .frame(width: CGFloat(Float(rowHeight)), height: CGFloat(Float(rowHeight)))
                     .padding(.leading, 12)
 
                 Text(post.title)
@@ -26,12 +27,12 @@ struct InfoRow: View {
                 Spacer()
             }
         }
-        .frame(maxHeight: 50)
+        .frame(height: CGFloat(Float(rowHeight)))
     }
 }
 
 struct InfoRow_Previews: PreviewProvider {
     static var previews: some View {
-        InfoRow(post: posts[0])
+        InfoRow(post: posts[0], rowHeight: 40.0)
     }
 }

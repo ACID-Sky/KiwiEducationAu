@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InfoView: View {
     var titleOn: Bool
+    var rowHeight: Double
 
     var body: some View {
         NavigationView {
@@ -16,7 +17,7 @@ struct InfoView: View {
                 NavigationLink {
                     InfoDetails(post: post)
                 } label: {
-                    InfoRow(post: post)
+                    InfoRow(post: post, rowHeight: rowHeight)
                 }
             }
             .navigationTitle(titleOn ? "About" : "")
@@ -27,6 +28,6 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(titleOn: false)
+        InfoView(titleOn: false, rowHeight: 40)
     }
 }
