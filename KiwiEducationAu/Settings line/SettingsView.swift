@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @State private var isOn = false
+    @Binding var titleOn: Bool
+//    @State private var titleOn = true
 
     @State private var sliderValue = 10.0
     @State private var isChanging = false
@@ -26,16 +27,18 @@ struct SettingsView: View {
                     .font(.headline)
                     .foregroundColor(.indigo)
 
-                Toggle(isOn: $isOn.animation()) {
-                    Text("My toggle")
-                }
-
-                Text("Switch description")
-                    .font(.footnote)
-
             }
 
             Section {
+
+                Toggle("Navigation title", isOn: $titleOn.animation())
+                    .font(.title)
+
+
+                Text(titleOn ? "Navigation title is enabled" : "Navigation title is disabled")
+                    .font(.callout)
+                    .foregroundColor(.indigo)
+
 
 
                 Slider(value: $sliderValue, in: 0...100) { changed in
@@ -55,7 +58,9 @@ struct SettingsView: View {
 }
 
 struct SettingsView_Previews: PreviewProvider {
+    @State private var titleOn = true
+
     static var previews: some View {
-        SettingsView()
+        SettingsView(titleOn: .constant(true))
     }
 }
