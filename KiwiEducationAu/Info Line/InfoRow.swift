@@ -25,9 +25,10 @@ struct InfoRow: View {
 
                 Spacer()
             }
-            Text(post.subtitle)
-                .font(.subheadline)
+//            Text(post.subtitle)
+//                .font(.subheadline)
         }
+        .frame(maxHeight: 50)
     }
 }
 
