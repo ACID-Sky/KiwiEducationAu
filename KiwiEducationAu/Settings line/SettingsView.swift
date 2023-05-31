@@ -16,10 +16,16 @@ struct SettingsView: View {
 
     @State private var selection = 1
 
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
 
         Form {
             Section {
+                Text("Phone theme is " + (colorScheme == .light ? "light mode" : "dark mode"))
+                    .font(.headline)
+                    .foregroundColor(.indigo)
+
                 Toggle(isOn: $isOn.animation()) {
                     Text("My toggle")
                 }
