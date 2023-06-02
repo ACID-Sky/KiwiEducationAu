@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct InfoView: View {
+    var titleOn: Bool
+    var rowHeight: Double
+
     var body: some View {
         NavigationView {
             List(posts) { post in
                 NavigationLink {
                     InfoDetails(post: post)
                 } label: {
-                    InfoRow(post: post)
+                    InfoRow(post: post, rowHeight: rowHeight)
                 }
             }
-            .navigationTitle("About")
+            .navigationTitle(titleOn ? "About" : "")
             .listStyle(.plain)
         }
     }
@@ -25,6 +28,6 @@ struct InfoView: View {
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView()
+        InfoView(titleOn: false, rowHeight: 40)
     }
 }

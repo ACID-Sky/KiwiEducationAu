@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage(wrappedValue: true, "titleOn") var titleOn
+    @AppStorage(wrappedValue: 40.0, "rowHeight") var rowHeight
+
     var body: some View {
         TabView() {
-            InfoView()
+            InfoView(titleOn: titleOn, rowHeight: rowHeight)
                 .tabItem {
                     Label("About", systemImage: "info.circle")
                 }
@@ -20,7 +23,7 @@ struct ContentView: View {
                     Label("Hello", systemImage: "hand.raised.app.fill")
                 }
 
-            SettingsView()
+            SettingsView(titleOn: $titleOn, rowHeight: $rowHeight)
                 .tabItem {
                     Label("Settings", systemImage: "gear.circle.fill")
                 }
