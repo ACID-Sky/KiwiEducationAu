@@ -8,26 +8,27 @@
 import SwiftUI
 
 struct InfoView: View {
+    var article: [Info]
     var titleOn: Bool
     var rowHeight: Double
 
+    @Binding var secondTabItem: TopicItems
+
     var body: some View {
-        NavigationView {
-            List(posts) { post in
+            List(article) { post in
                 NavigationLink {
-                    InfoDetails(post: post)
+                    InfoDetails(post: post, titleOn: titleOn, rowHeight: rowHeight)
                 } label: {
                     InfoRow(post: post, rowHeight: rowHeight)
                 }
             }
-            .navigationTitle(titleOn ? "About" : "")
+            .navigationTitle(titleOn ? "Статьи" : "")
             .listStyle(.plain)
-        }
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView(titleOn: false, rowHeight: 40)
+        InfoView(article: posts, titleOn: false, rowHeight: 40, secondTabItem: .constant(.about))
     }
 }

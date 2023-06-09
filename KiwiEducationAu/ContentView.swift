@@ -10,17 +10,24 @@ import SwiftUI
 struct ContentView: View {
     @AppStorage(wrappedValue: true, "titleOn") var titleOn
     @AppStorage(wrappedValue: 40.0, "rowHeight") var rowHeight
+    
+    @State private var selectedTopic: TopicItems = .about
+
+    let game = EmojiMemoryGame(for: .about)
 
     var body: some View {
         TabView() {
-            InfoView(titleOn: titleOn, rowHeight: rowHeight)
+            NavigationView {
+                InfoView(article: posts, titleOn: titleOn, rowHeight: rowHeight, secondTabItem: $selectedTopic)
+
+            }
                 .tabItem {
-                    Label("About", systemImage: "info.circle")
+                    Label("Статьи", systemImage: "info.circle")
                 }
 
-            HelloView()
+            EmojiMemoryGameView(viewModel: game)
                 .tabItem {
-                    Label("Hello", systemImage: "hand.raised.app.fill")
+                    Label("Emojis Game", systemImage: "rectangle.on.rectangle.circle.fill")
                 }
 
             SettingsView(titleOn: $titleOn, rowHeight: $rowHeight)
@@ -32,8 +39,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
