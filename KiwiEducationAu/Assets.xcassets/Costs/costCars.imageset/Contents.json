@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "8-Top-Australian-Car-Brands-to-Rev-You-Up-feature.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "8-Top-Australian-Car-Brands-to-Rev-You-Up-feature 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "8-Top-Australian-Car-Brands-to-Rev-You-Up-feature 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

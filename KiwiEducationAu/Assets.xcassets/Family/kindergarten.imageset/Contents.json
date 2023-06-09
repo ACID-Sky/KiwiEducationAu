@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "coming-to-aust-with-a-partner-3-1024x682 — крупный размер.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "coming-to-aust-with-a-partner-3-1024x682 — крупный размер 1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "coming-to-aust-with-a-partner-3-1024x682 — крупный размер 2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

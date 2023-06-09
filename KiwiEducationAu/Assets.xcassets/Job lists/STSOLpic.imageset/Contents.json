@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "BN-KY576_expert_P_20151027111042.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "BN-KY576_expert_P_20151027111042 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "BN-KY576_expert_P_20151027111042 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct InfoRow: View {
-    var post: Post
+    var post: Info
     var rowHeight: Double
 
     var body: some View {
-        VStack {
             HStack {
                 post.image
                     .resizable()
@@ -26,7 +25,6 @@ struct InfoRow: View {
 
                 Spacer()
             }
-        }
         .frame(height: CGFloat(Float(rowHeight)))
     }
 }

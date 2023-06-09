@@ -7,31 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7677C0352A27697C00DFBFEF /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C0342A27697C00DFBFEF /* Info.swift */; };
+		7677C0372A276B7800DFBFEF /* AboutTheCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C0362A276B7700DFBFEF /* AboutTheCountry.swift */; };
+		7677C0392A276B9100DFBFEF /* Immigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C0382A276B9100DFBFEF /* Immigration.swift */; };
+		7677C03B2A276B9E00DFBFEF /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C03A2A276B9E00DFBFEF /* Education.swift */; };
+		7677C03D2A276BAA00DFBFEF /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C03C2A276BAA00DFBFEF /* Work.swift */; };
+		7677C0402A2783A900DFBFEF /* PopularProfessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677C03F2A2783A900DFBFEF /* PopularProfessions.swift */; };
+		76B5A0702A32F45500318E56 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A0652A32F45300318E56 /* Grid.swift */; };
+		76B5A0712A32F45500318E56 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A0662A32F45300318E56 /* Pie.swift */; };
+		76B5A0722A32F45500318E56 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A0672A32F45400318E56 /* CardView.swift */; };
+		76B5A0732A32F45500318E56 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A0682A32F45400318E56 /* Array+Identifiable.swift */; };
+		76B5A0752A32F45500318E56 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06A2A32F45400318E56 /* MemoryGame.swift */; };
+		76B5A0762A32F45500318E56 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06B2A32F45500318E56 /* Cardify.swift */; };
+		76B5A0772A32F45500318E56 /* Array+only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06C2A32F45500318E56 /* Array+only.swift */; };
+		76B5A0782A32F45500318E56 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06D2A32F45500318E56 /* EmojiMemoryGameView.swift */; };
+		76B5A0792A32F45500318E56 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06E2A32F45500318E56 /* GridLayout.swift */; };
+		76B5A07A2A32F45500318E56 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5A06F2A32F45500318E56 /* EmojiMemoryGame.swift */; };
+		76B6F2902A29B9FF00AEA26A /* TopicItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6F28F2A29B9FE00AEA26A /* TopicItems.swift */; };
+		76BE23692A2860F500C14B24 /* TemporaryGraduateVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23682A2860F500C14B24 /* TemporaryGraduateVisa.swift */; };
+		76BE236B2A2864D200C14B24 /* FindJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE236A2A2864D100C14B24 /* FindJob.swift */; };
+		76BE236D2A2869A100C14B24 /* WorkVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE236C2A2869A100C14B24 /* WorkVisa.swift */; };
+		76BE23702A286B9600C14B24 /* ResidentVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE236F2A286B9600C14B24 /* ResidentVisa.swift */; };
+		76BE23722A286EA100C14B24 /* TemporaryVisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23712A286EA100C14B24 /* TemporaryVisa.swift */; };
+		76BE23792A2879D300C14B24 /* PriceOfLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23782A2879D300C14B24 /* PriceOfLive.swift */; };
+		76BE237B2A287EE300C14B24 /* TasmaniaCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE237A2A287EE300C14B24 /* TasmaniaCities.swift */; };
+		76BE237E2A28832300C14B24 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE237D2A28832300C14B24 /* States.swift */; };
+		76BE23882A2885A800C14B24 /* NorthTerritoryCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23872A2885A800C14B24 /* NorthTerritoryCities.swift */; };
+		76BE238A2A2885D800C14B24 /* WesternAustraliaCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23892A2885D800C14B24 /* WesternAustraliaCities.swift */; };
+		76BE238C2A28862800C14B24 /* SouthAustraliaCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE238B2A28862800C14B24 /* SouthAustraliaCities.swift */; };
+		76BE238E2A28864800C14B24 /* VictoriaCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE238D2A28864800C14B24 /* VictoriaCities.swift */; };
+		76BE23902A28866A00C14B24 /* QueenslandCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE238F2A28866A00C14B24 /* QueenslandCities.swift */; };
+		76BE23922A28869E00C14B24 /* NewSouthWalesCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23912A28869E00C14B24 /* NewSouthWalesCities.swift */; };
+		76BE23942A2886C900C14B24 /* AustralianCapitalTerritoryCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23932A2886C900C14B24 /* AustralianCapitalTerritoryCities.swift */; };
+		76BE23972A289F1A00C14B24 /* Visas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23962A289F1A00C14B24 /* Visas.swift */; };
+		76BE239A2A28A53000C14B24 /* TypeOfImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE23992A28A53000C14B24 /* TypeOfImmigration.swift */; };
+		76BE239D2A28A9A800C14B24 /* TypeOfProfimmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE239C2A28A9A800C14B24 /* TypeOfProfimmigration.swift */; };
+		76BE23A02A28ACBD00C14B24 /* FamilyImmigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BE239F2A28ACBD00C14B24 /* FamilyImmigration.swift */; };
 		76E15B8C2A25DDE50047DF7F /* KiwiEducationAuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B8B2A25DDE50047DF7F /* KiwiEducationAuApp.swift */; };
 		76E15B8E2A25DDE50047DF7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B8D2A25DDE50047DF7F /* ContentView.swift */; };
 		76E15B902A25DDE70047DF7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E15B8F2A25DDE70047DF7F /* Assets.xcassets */; };
 		76E15B932A25DDE70047DF7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E15B922A25DDE70047DF7F /* Preview Assets.xcassets */; };
-		76E15B9B2A25E1C10047DF7F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B9A2A25E1C10047DF7F /* Post.swift */; };
 		76E15B9D2A25EF5F0047DF7F /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B9C2A25EF5F0047DF7F /* Posts.swift */; };
 		76E15B9F2A25F0160047DF7F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15B9E2A25F0160047DF7F /* InfoView.swift */; };
 		76E15BA12A25F15C0047DF7F /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA02A25F15C0047DF7F /* InfoRow.swift */; };
 		76E15BA32A25F84D0047DF7F /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA22A25F84D0047DF7F /* InfoDetails.swift */; };
-		76E15BA52A2607910047DF7F /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA42A2607910047DF7F /* HelloView.swift */; };
 		76E15BAA2A2608AE0047DF7F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E15BA92A2608AE0047DF7F /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7677C0342A27697C00DFBFEF /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		7677C0362A276B7700DFBFEF /* AboutTheCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTheCountry.swift; sourceTree = "<group>"; };
+		7677C0382A276B9100DFBFEF /* Immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Immigration.swift; sourceTree = "<group>"; };
+		7677C03A2A276B9E00DFBFEF /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		7677C03C2A276BAA00DFBFEF /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		7677C03F2A2783A900DFBFEF /* PopularProfessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularProfessions.swift; sourceTree = "<group>"; };
+		76B5A0652A32F45300318E56 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		76B5A0662A32F45300318E56 /* Pie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		76B5A0672A32F45400318E56 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		76B5A0682A32F45400318E56 /* Array+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		76B5A06A2A32F45400318E56 /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		76B5A06B2A32F45500318E56 /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		76B5A06C2A32F45500318E56 /* Array+only.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+only.swift"; sourceTree = "<group>"; };
+		76B5A06D2A32F45500318E56 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
+		76B5A06E2A32F45500318E56 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		76B5A06F2A32F45500318E56 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		76B6F28F2A29B9FE00AEA26A /* TopicItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicItems.swift; sourceTree = "<group>"; };
+		76BE23682A2860F500C14B24 /* TemporaryGraduateVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryGraduateVisa.swift; sourceTree = "<group>"; };
+		76BE236A2A2864D100C14B24 /* FindJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindJob.swift; sourceTree = "<group>"; };
+		76BE236C2A2869A100C14B24 /* WorkVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkVisa.swift; sourceTree = "<group>"; };
+		76BE236F2A286B9600C14B24 /* ResidentVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentVisa.swift; sourceTree = "<group>"; };
+		76BE23712A286EA100C14B24 /* TemporaryVisa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryVisa.swift; sourceTree = "<group>"; };
+		76BE23782A2879D300C14B24 /* PriceOfLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceOfLive.swift; sourceTree = "<group>"; };
+		76BE237A2A287EE300C14B24 /* TasmaniaCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasmaniaCities.swift; sourceTree = "<group>"; };
+		76BE237D2A28832300C14B24 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		76BE23872A2885A800C14B24 /* NorthTerritoryCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthTerritoryCities.swift; sourceTree = "<group>"; };
+		76BE23892A2885D800C14B24 /* WesternAustraliaCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternAustraliaCities.swift; sourceTree = "<group>"; };
+		76BE238B2A28862800C14B24 /* SouthAustraliaCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAustraliaCities.swift; sourceTree = "<group>"; };
+		76BE238D2A28864800C14B24 /* VictoriaCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoriaCities.swift; sourceTree = "<group>"; };
+		76BE238F2A28866A00C14B24 /* QueenslandCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueenslandCities.swift; sourceTree = "<group>"; };
+		76BE23912A28869E00C14B24 /* NewSouthWalesCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSouthWalesCities.swift; sourceTree = "<group>"; };
+		76BE23932A2886C900C14B24 /* AustralianCapitalTerritoryCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustralianCapitalTerritoryCities.swift; sourceTree = "<group>"; };
+		76BE23962A289F1A00C14B24 /* Visas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visas.swift; sourceTree = "<group>"; };
+		76BE23992A28A53000C14B24 /* TypeOfImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfImmigration.swift; sourceTree = "<group>"; };
+		76BE239C2A28A9A800C14B24 /* TypeOfProfimmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfProfimmigration.swift; sourceTree = "<group>"; };
+		76BE239F2A28ACBD00C14B24 /* FamilyImmigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyImmigration.swift; sourceTree = "<group>"; };
 		76E15B882A25DDE50047DF7F /* KiwiEducationAu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiEducationAu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E15B8B2A25DDE50047DF7F /* KiwiEducationAuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiwiEducationAuApp.swift; sourceTree = "<group>"; };
 		76E15B8D2A25DDE50047DF7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76E15B8F2A25DDE70047DF7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76E15B922A25DDE70047DF7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		76E15B9A2A25E1C10047DF7F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		76E15B9C2A25EF5F0047DF7F /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		76E15B9E2A25F0160047DF7F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		76E15BA02A25F15C0047DF7F /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		76E15BA22A25F84D0047DF7F /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
-		76E15BA42A2607910047DF7F /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 		76E15BA92A2608AE0047DF7F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +114,227 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7677C03E2A27838800DFBFEF /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				7677C03C2A276BAA00DFBFEF /* Work.swift */,
+				76BE23682A2860F500C14B24 /* TemporaryGraduateVisa.swift */,
+				7677C03F2A2783A900DFBFEF /* PopularProfessions.swift */,
+				76BE236A2A2864D100C14B24 /* FindJob.swift */,
+				76BE236E2A286B7700C14B24 /* WorkVisa */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		76B5A07B2A32F46200318E56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76B5A06A2A32F45400318E56 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76B5A07C2A32F46F00318E56 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				76B5A06F2A32F45500318E56 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		76B5A07D2A32F4A000318E56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76B5A06D2A32F45500318E56 /* EmojiMemoryGameView.swift */,
+				76B5A0672A32F45400318E56 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76B5A07E2A32F51600318E56 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				76B5A0682A32F45400318E56 /* Array+Identifiable.swift */,
+				76B5A06C2A32F45500318E56 /* Array+only.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		76B5A07F2A32F55C00318E56 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				76B5A06B2A32F45500318E56 /* Cardify.swift */,
+				76B5A0652A32F45300318E56 /* Grid.swift */,
+				76B5A06E2A32F45500318E56 /* GridLayout.swift */,
+				76B5A0662A32F45300318E56 /* Pie.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		76B6F2912A29BB1000AEA26A /* SecondTabItem */ = {
+			isa = PBXGroup;
+			children = (
+				76B6F28F2A29B9FE00AEA26A /* TopicItems.swift */,
+				76B5A07F2A32F55C00318E56 /* Helpers */,
+				76B5A07B2A32F46200318E56 /* Model */,
+				76B5A07C2A32F46F00318E56 /* ViewModel */,
+				76B5A07D2A32F4A000318E56 /* View */,
+			);
+			path = SecondTabItem;
+			sourceTree = "<group>";
+		};
+		76BE236E2A286B7700C14B24 /* WorkVisa */ = {
+			isa = PBXGroup;
+			children = (
+				76BE236C2A2869A100C14B24 /* WorkVisa.swift */,
+				76BE236F2A286B9600C14B24 /* ResidentVisa.swift */,
+				76BE23712A286EA100C14B24 /* TemporaryVisa.swift */,
+			);
+			path = WorkVisa;
+			sourceTree = "<group>";
+		};
+		76BE23752A2876CB00C14B24 /* AboutTheCountry */ = {
+			isa = PBXGroup;
+			children = (
+				76BE237C2A2882FA00C14B24 /* States */,
+				7677C0362A276B7700DFBFEF /* AboutTheCountry.swift */,
+				76BE23782A2879D300C14B24 /* PriceOfLive.swift */,
+			);
+			path = AboutTheCountry;
+			sourceTree = "<group>";
+		};
+		76BE23762A2876EE00C14B24 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				7677C03A2A276B9E00DFBFEF /* Education.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		76BE23772A2876F200C14B24 /* Immigration */ = {
+			isa = PBXGroup;
+			children = (
+				76BE239E2A28AC9E00C14B24 /* Family Immigration */,
+				76BE239B2A28A98900C14B24 /* Type of Profimmigration */,
+				76BE23982A28A50B00C14B24 /* Type of immigration */,
+				76BE23952A289F0600C14B24 /* Visas */,
+				7677C0382A276B9100DFBFEF /* Immigration.swift */,
+			);
+			path = Immigration;
+			sourceTree = "<group>";
+		};
+		76BE237C2A2882FA00C14B24 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23862A28843C00C14B24 /* Tasmania */,
+				76BE23852A28841D00C14B24 /* North territory */,
+				76BE23842A2883FD00C14B24 /* Western Australia */,
+				76BE23832A2883E700C14B24 /* South Australia */,
+				76BE23822A2883CF00C14B24 /* Victoria */,
+				76BE23812A28839500C14B24 /* Queensland */,
+				76BE23802A28836E00C14B24 /* New South Wales */,
+				76BE237F2A28835A00C14B24 /* Australian Capital Territory */,
+				76BE237D2A28832300C14B24 /* States.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		76BE237F2A28835A00C14B24 /* Australian Capital Territory */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23932A2886C900C14B24 /* AustralianCapitalTerritoryCities.swift */,
+			);
+			path = "Australian Capital Territory";
+			sourceTree = "<group>";
+		};
+		76BE23802A28836E00C14B24 /* New South Wales */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23912A28869E00C14B24 /* NewSouthWalesCities.swift */,
+			);
+			path = "New South Wales";
+			sourceTree = "<group>";
+		};
+		76BE23812A28839500C14B24 /* Queensland */ = {
+			isa = PBXGroup;
+			children = (
+				76BE238F2A28866A00C14B24 /* QueenslandCities.swift */,
+			);
+			path = Queensland;
+			sourceTree = "<group>";
+		};
+		76BE23822A2883CF00C14B24 /* Victoria */ = {
+			isa = PBXGroup;
+			children = (
+				76BE238D2A28864800C14B24 /* VictoriaCities.swift */,
+			);
+			path = Victoria;
+			sourceTree = "<group>";
+		};
+		76BE23832A2883E700C14B24 /* South Australia */ = {
+			isa = PBXGroup;
+			children = (
+				76BE238B2A28862800C14B24 /* SouthAustraliaCities.swift */,
+			);
+			path = "South Australia";
+			sourceTree = "<group>";
+		};
+		76BE23842A2883FD00C14B24 /* Western Australia */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23892A2885D800C14B24 /* WesternAustraliaCities.swift */,
+			);
+			path = "Western Australia";
+			sourceTree = "<group>";
+		};
+		76BE23852A28841D00C14B24 /* North territory */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23872A2885A800C14B24 /* NorthTerritoryCities.swift */,
+			);
+			path = "North territory";
+			sourceTree = "<group>";
+		};
+		76BE23862A28843C00C14B24 /* Tasmania */ = {
+			isa = PBXGroup;
+			children = (
+				76BE237A2A287EE300C14B24 /* TasmaniaCities.swift */,
+			);
+			path = Tasmania;
+			sourceTree = "<group>";
+		};
+		76BE23952A289F0600C14B24 /* Visas */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23962A289F1A00C14B24 /* Visas.swift */,
+			);
+			path = Visas;
+			sourceTree = "<group>";
+		};
+		76BE23982A28A50B00C14B24 /* Type of immigration */ = {
+			isa = PBXGroup;
+			children = (
+				76BE23992A28A53000C14B24 /* TypeOfImmigration.swift */,
+			);
+			path = "Type of immigration";
+			sourceTree = "<group>";
+		};
+		76BE239B2A28A98900C14B24 /* Type of Profimmigration */ = {
+			isa = PBXGroup;
+			children = (
+				76BE239C2A28A9A800C14B24 /* TypeOfProfimmigration.swift */,
+			);
+			path = "Type of Profimmigration";
+			sourceTree = "<group>";
+		};
+		76BE239E2A28AC9E00C14B24 /* Family Immigration */ = {
+			isa = PBXGroup;
+			children = (
+				76BE239F2A28ACBD00C14B24 /* FamilyImmigration.swift */,
+			);
+			path = "Family Immigration";
+			sourceTree = "<group>";
+		};
 		76E15B7F2A25DDE50047DF7F = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +354,12 @@
 		76E15B8A2A25DDE50047DF7F /* KiwiEducationAu */ = {
 			isa = PBXGroup;
 			children = (
+				76B5A07E2A32F51600318E56 /* Extentions */,
 				76E15B8B2A25DDE50047DF7F /* KiwiEducationAuApp.swift */,
 				76E15B8D2A25DDE50047DF7F /* ContentView.swift */,
 				76E15BA62A26079A0047DF7F /* Info Line */,
+				76B6F2912A29BB1000AEA26A /* SecondTabItem */,
 				76E15BA82A2607BB0047DF7F /* Settings line */,
-				76E15BA72A2607A40047DF7F /* Hello line */,
 				76E15B8F2A25DDE70047DF7F /* Assets.xcassets */,
 				76E15B912A25DDE70047DF7F /* Preview Content */,
 				76E15B992A25E1790047DF7F /* DataModel */,
@@ -88,8 +378,12 @@
 		76E15B992A25E1790047DF7F /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				76E15B9A2A25E1C10047DF7F /* Post.swift */,
+				7677C0342A27697C00DFBFEF /* Info.swift */,
 				76E15B9C2A25EF5F0047DF7F /* Posts.swift */,
+				76BE23752A2876CB00C14B24 /* AboutTheCountry */,
+				76BE23772A2876F200C14B24 /* Immigration */,
+				76BE23762A2876EE00C14B24 /* Education */,
+				7677C03E2A27838800DFBFEF /* Work */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -102,14 +396,6 @@
 				76E15BA22A25F84D0047DF7F /* InfoDetails.swift */,
 			);
 			path = "Info Line";
-			sourceTree = "<group>";
-		};
-		76E15BA72A2607A40047DF7F /* Hello line */ = {
-			isa = PBXGroup;
-			children = (
-				76E15BA42A2607910047DF7F /* HelloView.swift */,
-			);
-			path = "Hello line";
 			sourceTree = "<group>";
 		};
 		76E15BA82A2607BB0047DF7F /* Settings line */ = {
@@ -190,14 +476,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E15B9B2A25E1C10047DF7F /* Post.swift in Sources */,
-				76E15BA52A2607910047DF7F /* HelloView.swift in Sources */,
+				76BE239A2A28A53000C14B24 /* TypeOfImmigration.swift in Sources */,
+				76BE23882A2885A800C14B24 /* NorthTerritoryCities.swift in Sources */,
+				7677C0402A2783A900DFBFEF /* PopularProfessions.swift in Sources */,
+				76BE239D2A28A9A800C14B24 /* TypeOfProfimmigration.swift in Sources */,
+				76B5A0732A32F45500318E56 /* Array+Identifiable.swift in Sources */,
+				7677C03B2A276B9E00DFBFEF /* Education.swift in Sources */,
+				76B6F2902A29B9FF00AEA26A /* TopicItems.swift in Sources */,
+				76BE23A02A28ACBD00C14B24 /* FamilyImmigration.swift in Sources */,
 				76E15B8E2A25DDE50047DF7F /* ContentView.swift in Sources */,
+				76BE236B2A2864D200C14B24 /* FindJob.swift in Sources */,
+				7677C0352A27697C00DFBFEF /* Info.swift in Sources */,
+				76BE238E2A28864800C14B24 /* VictoriaCities.swift in Sources */,
+				76B5A0722A32F45500318E56 /* CardView.swift in Sources */,
+				76BE23722A286EA100C14B24 /* TemporaryVisa.swift in Sources */,
+				76BE237E2A28832300C14B24 /* States.swift in Sources */,
+				7677C0392A276B9100DFBFEF /* Immigration.swift in Sources */,
+				76BE23902A28866A00C14B24 /* QueenslandCities.swift in Sources */,
+				76BE237B2A287EE300C14B24 /* TasmaniaCities.swift in Sources */,
+				76B5A0772A32F45500318E56 /* Array+only.swift in Sources */,
+				76B5A0702A32F45500318E56 /* Grid.swift in Sources */,
+				76B5A07A2A32F45500318E56 /* EmojiMemoryGame.swift in Sources */,
+				76B5A0762A32F45500318E56 /* Cardify.swift in Sources */,
 				76E15BAA2A2608AE0047DF7F /* SettingsView.swift in Sources */,
+				76BE23922A28869E00C14B24 /* NewSouthWalesCities.swift in Sources */,
 				76E15BA12A25F15C0047DF7F /* InfoRow.swift in Sources */,
+				76BE23692A2860F500C14B24 /* TemporaryGraduateVisa.swift in Sources */,
+				7677C03D2A276BAA00DFBFEF /* Work.swift in Sources */,
+				76B5A0792A32F45500318E56 /* GridLayout.swift in Sources */,
+				76BE23972A289F1A00C14B24 /* Visas.swift in Sources */,
+				76BE23792A2879D300C14B24 /* PriceOfLive.swift in Sources */,
+				76B5A0782A32F45500318E56 /* EmojiMemoryGameView.swift in Sources */,
 				76E15B8C2A25DDE50047DF7F /* KiwiEducationAuApp.swift in Sources */,
 				76E15B9F2A25F0160047DF7F /* InfoView.swift in Sources */,
 				76E15BA32A25F84D0047DF7F /* InfoDetails.swift in Sources */,
+				76BE23942A2886C900C14B24 /* AustralianCapitalTerritoryCities.swift in Sources */,
+				76B5A0752A32F45500318E56 /* MemoryGame.swift in Sources */,
+				76BE23702A286B9600C14B24 /* ResidentVisa.swift in Sources */,
+				7677C0372A276B7800DFBFEF /* AboutTheCountry.swift in Sources */,
+				76BE236D2A2869A100C14B24 /* WorkVisa.swift in Sources */,
+				76BE238A2A2885D800C14B24 /* WesternAustraliaCities.swift in Sources */,
+				76B5A0712A32F45500318E56 /* Pie.swift in Sources */,
+				76BE238C2A28862800C14B24 /* SouthAustraliaCities.swift in Sources */,
 				76E15B9D2A25EF5F0047DF7F /* Posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
